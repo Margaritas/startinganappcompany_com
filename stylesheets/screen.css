@@ -215,7 +215,7 @@ div#no-downloads span.inner {
   background: transparent url(../images/download-sprite.png) 0 0 no-repeat;
 }
 
-section#downloads a {
+section#downloads .chevron {
   display: block;
   position: relative;
   height: 67px;
@@ -240,12 +240,12 @@ section#downloads a em {
   display: block;
 }
 
-section#downloads a.zip {
+section#downloads .chevron_left {
   float: left;
   background-position: 0 0;
 }
 
-section#downloads a.tgz {
+section#downloads .chevron_right {
   float: right;
   background-position: -275px 0;
 }
